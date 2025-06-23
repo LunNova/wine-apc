@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: 2025 LunNova
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+result/
+target/
+.pre-commit-config.yaml
+.direnv/
+.idea/
+logs/
+test/
+dnSpy*
+Logs/
+result
+
+# profiler logs
+perf.data*
+*.log
+
+# local config
+.env.local

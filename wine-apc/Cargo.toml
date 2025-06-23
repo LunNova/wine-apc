@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: 2025 LunNova
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+[package]
+name = "wine-apc"
+version = "0.1.0"
+edition = "2024"
+description = "Wine APC client for wineserver protocol from non-Wine Linux processes"
+license = "AGPL-3.0-or-later"
+
+[dependencies]
+anyhow = "1.0.98"
+libc = "0.2"
+tracing = "0.1"
+
+[target.'cfg(windows)'.dev-dependencies]
+winapi = { version = "0.3", features = ["winnt", "winbase", "processthreadsapi", "memoryapi", "errhandlingapi", "winuser", "ntdef"] }
+
+[dev-dependencies]
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
