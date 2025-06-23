@@ -6,6 +6,7 @@
 
 import re
 import sys
+import os
 from collections import Counter, defaultdict
 
 
@@ -15,7 +16,8 @@ def parse_strace_log(filename):
     # Load the wine request mappings
     wine_requests = {}
     try:
-        with open("wine-REQ-list.md", "r") as f:
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        with open(f"{dir_path}/wine-REQ-list.md", "r") as f:
             for line in f:
                 if "//" in line and "REQ_" in line:
                     parts = line.strip().split("//")
