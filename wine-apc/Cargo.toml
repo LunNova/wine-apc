@@ -4,9 +4,11 @@
 
 [package]
 name = "wine-apc"
-version = "0.1.0"
+version = "0.0.0-proofofconcept"
 edition = "2024"
-description = "Wine APC client for wineserver protocol from non-Wine Linux processes"
+authors = ["Luna Nova <cratesio@lunnova.dev>"]
+keywords = ["wine", "client"]
+description = "Prototype Wine APC client for wineserver protocol from non-Wine Linux processes"
 license = "AGPL-3.0-or-later"
 
 [dependencies]

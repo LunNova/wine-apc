@@ -1,4 +1,6 @@
-
+// SPDX-FileCopyrightText: 2025 LunNova
+//
+// SPDX-License-Identifier: CC0-1.0
 write(12, "\360\237\224\223 Opening target process with"..., 50) = 50
 rt_sigprocmask(SIG_BLOCK, [HUP INT USR1 USR2 ALRM CHLD IO], [], 8) = 0
 write(7, "\33\0\0\0\0\0\0\0\0\0\0\0\220\21\0\08\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 64) = 64

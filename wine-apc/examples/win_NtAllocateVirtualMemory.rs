@@ -1,6 +1,6 @@
 // SPDX-FileCopyrightText: 2025 LunNova
 //
-// SPDX-License-Identifier: AGPL-3.0-or-later
+// SPDX-License-Identifier: CC0-1.0
 
 #[cfg(target_os = "windows")]
 mod win {
