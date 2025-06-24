@@ -10,6 +10,8 @@ authors = ["Luna Nova <cratesio@lunnova.dev>"]
 keywords = ["wine", "client"]
 description = "Prototype Wine APC client for wineserver protocol from non-Wine Linux processes"
 license = "AGPL-3.0-or-later"
+repository = "https://github.com/LunNova/wine-apc"
+readme = "README.md"
 
 [dependencies]
 anyhow = "1.0.98"
